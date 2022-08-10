@@ -1,0 +1,509 @@
+
+.u-bg-very-dark-desaturated-blue {
+    background-color: #44596a;
+}
+
+.u-color-folk-white {
+    color: white;
+}
+
+.u-color-folk-dark-grayish-blue {
+    color: #707f8f;
+}
+
+.u-bg-grayish-blue {
+    background-color: #5b6e81;
+}
+
+.u-bg-light-grayish-blue {
+    background-color: #eff0f5;
+}
+
+.u-font-weight-bold {
+    font-weight: 700;
+}
+
+.u-font-size-20 {
+    font-size: 20px;
+}
+
+.u-font-size-40 {
+    font-size: 40px;
+}
+
+.u-font-size-servico {
+    font-size: 40px;
+}
+
+.u-font-quem-somos {
+    font-size: 40px;
+}
+
+.u-font-size-perguntas {
+    font-size: 40px;
+}
+
+.u-font-size-final {
+    font-size:  40px;
+}
+
+.font-headline {
+    font-size: 40px;
+}
+
+.h-96 {
+    height: 24rem;
+}
+
+.borders-white {
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    margin: 0px 205px;
+}
+
+.borders-acao {
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    margin-right: 205px;
+    margin-left: 80px;
+}
+
+/* .inputs-form {
+    margin-left: 26px;
+    margin-right: 26px;
+} */
+
+.border-solid {
+    border-radius: 5px 5px;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+
+
+.img-quem-somos {
+    border-radius: 10px  10px;
+}
+
+
+.img-home {
+    width: 50px;
+    height: 50px;
+}
+
+.hover\:img-home {
+    color: red;
+}
+
+
+
+.button-acion {
+    border-radius: 5px 5px;
+    background-color: #5b6e81;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 11px 10px 25px -6px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 11px 10px 25px -6px rgba(0,0,0,0.69);
+    -moz-box-shadow: 11px 10px 25px -6px rgba(0,0,0,0.69);
+}
+
+.borders-questions {
+    border: 2px solid #7d8c9d;
+    border-radius: 5px 5px;
+    margin: 0px 323px;
+}
+
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.borders-chamada {
+    border-radius: 5px 5px;
+    background-color: #ffffff;
+}
+
+
+@media screen and (max-width:1199px) {
+    
+    .borders-acao {
+        margin-right:115px ;
+        margin-left: 0;
+    }
+    .font-headline {
+        font-size: 38px;
+    }
+    
+    .font-logotipo {
+        font-size: 35px;
+    }
+    
+    .u-font-quem-somos {
+        font-size: 36px;
+    }
+
+    .borders-questions {
+        margin: 0px 185px;
+    }
+
+    .borders-white {
+        margin-right:55px;
+    }
+
+    .borders-acao {
+        margin-right: 55px;
+        margin-left: 0;
+    }
+
+    .font-headline {
+        font-size: 29px;
+    }
+
+    .fonts-util {
+        font-size: 16px;
+    }
+
+    .borders-questions {
+        margin: 0px 45px;
+    }
+
+  .h-20 {
+    height: 20rem;
+  }
+  
+  .u-font-size-cont-aqui {
+    font-size: 16px;
+  }
+
+  .h-20 {
+    height: 7rem;
+}
+
+    .ml-115 {
+        margin-left: 115px
+    }
+}
+
+@media screen and (max-width:575px)  {
+    
+    .borders-acao {
+        margin: 0px 0px;
+    } 
+
+    .borders-white {
+        margin: 0px 0px;
+    }
+
+    .img-quem-somos {
+        width: 333px;
+        height: 245px;
+    }
+
+    
+    
+    .u-font-quem-somos {
+        font-size: 30px;
+    }
+
+    .u-font-quem-somos  {
+        font-size: 25px !important;
+    }    
+
+    .u-font-size-cont-aqui {
+        font-size: 13px;
+    }
+
+    .u-font-size-servico {
+        font-size: 30px;
+    }
+
+    .u-font-size-perguntas {
+        font-size: 30px;
+    }
+    
+    .borders-questions {
+        margin: 0px 0px;
+    }
+
+    .u-font-size-final {
+        font-size: 30px;
+    }
+
+    .font-size-p-final {
+        font-size: 14px;
+    }
+
+    .font-descr-final {
+        font-size: 14px;
+        /* line-height: 2; */
+    }
+
+    .especialistas-final {
+        font-size: 14px;
+    }
+
+    .h-20 {
+        height: 9rem;
+    }
+}
+
+/* buttons hover */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+@-webkit-keyframes hvr-wobble-to-bottom-right {
+    16.65% {
+      -webkit-transform: translate(8px, 8px);
+      transform: translate(8px, 8px);
+    }
+    33.3% {
+      -webkit-transform: translate(-6px, -6px);
+      transform: translate(-6px, -6px);
+    }
+    49.95% {
+      -webkit-transform: translate(4px, 4px);
+      transform: translate(4px, 4px);
+    }
+    66.6% {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+    83.25% {
+      -webkit-transform: translate(1px, 1px);
+      transform: translate(1px, 1px);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  }
+  @keyframes hvr-wobble-to-bottom-right {
+    16.65% {
+      -webkit-transform: translate(8px, 8px);
+      transform: translate(8px, 8px);
+    }
+    33.3% {
+      -webkit-transform: translate(-6px, -6px);
+      transform: translate(-6px, -6px);
+    }
+    49.95% {
+      -webkit-transform: translate(4px, 4px);
+      transform: translate(4px, 4px);
+    }
+    66.6% {
+      -webkit-transform: translate(-2px, -2px);
+      transform: translate(-2px, -2px);
+    }
+    83.25% {
+      -webkit-transform: translate(1px, 1px);
+      transform: translate(1px, 1px);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  }
+  .hvr-wobble-to-bottom-right {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
+    -webkit-animation-name: hvr-wobble-to-bottom-right;
+    animation-name: hvr-wobble-to-bottom-right;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Wobble Bottom */
+@-webkit-keyframes hvr-wobble-bottom {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  @keyframes hvr-wobble-bottom {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  .hvr-wobble-bottom {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+  }
+  .hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
+    -webkit-animation-name: hvr-wobble-bottom;
+    animation-name: hvr-wobble-bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+  .button-acion:hover {
+    color:black;
+    background-color: #ffffff;
+    border: 2px dashed black;
+  }
+
+  input:hover {
+    color:black;
+    background-color: #ffffff;
+    border: 2px dashed black;
+  }
+
+  .borders-questions:hover { 
+    color:black;
+    background-color: #ffffff;
+    border: 2px solid black;
+    transition:1.6s 0s ease;
+  }
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+  
